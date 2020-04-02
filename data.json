@@ -1,0 +1,223 @@
+{
+  "/authenticate": {
+    "post": {
+      "token": "dasdaqwe4qdqawqe1e3qw1e2qwe2eqwe",
+      "user": {
+        "name": "Nurielly Caroline Brizola",
+        "email": "nurycaroline@gmail.com",
+        "login": "nury",
+        "password": "123",
+        "location": {
+          "lat": -49.3232,
+          "lng": -23.985,
+          "address": "Rua 1585",
+          "city": "Blumenau",
+          "state": "SC",
+          "zip_code": "89039-96"
+        }
+      }
+    }
+  },
+  "/authenticate/sso": {
+    "post": {
+      "token": "dasdaqwe4qdqawqe1e3qw1e2qwe2eqwe",
+      "user": {
+        "name": "Nurielly Caroline Brizola",
+        "email": "nurycaroline@gmail.com",
+        "login": "nury",
+        "password": "123",
+        "location": {
+          "lat": -49.3232,
+          "lng": -23.985,
+          "address": "Rua 1585",
+          "city": "Blumenau",
+          "state": "SC",
+          "zip_code": "89039-96"
+        }
+      }
+    }
+  },
+  "/deal/search": {
+    "post": [
+      {
+        "id": 1,
+        "type": 1,
+        "value": 150.3,
+        "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+        "trade_for": "",
+        "location": {
+          "lat": -49.3232,
+          "lng": -23.985,
+          "address": "Rua 1500",
+          "city": "Blumenau",
+          "state": "SC",
+          "zip_code": 8903996
+        },
+        "urgency": {
+          "type": 4,
+          "limit_date": "2020-01-01"
+        },
+        "photos": [
+          {
+            "src": "https://images7.kabum.com.br/produtos/fotos/57527/57527_1460728524_g.jpg"
+          },
+          {
+            "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": 2,
+        "value": 150.3,
+        "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+        "trade_for": "Play station 2",
+        "location": {
+          "lat": -49.3232,
+          "lng": -23.985,
+          "address": "Rua 1500",
+          "city": "Blumenau",
+          "state": "SC",
+          "zip_code": 8903996
+        },
+        "urgency": {
+          "type": 1,
+          "limit_date": ""
+        },
+        "photos": [
+          {
+            "src": "https://images7.kabum.com.br/produtos/fotos/57527/57527_1460728524_g.jpg"
+          },
+          {
+            "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": 3,
+        "value": 150.3,
+        "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+        "trade_for": "",
+        "location": {
+          "lat": -49.3232,
+          "lng": -23.985,
+          "address": "Rua 1500",
+          "city": "Blumenau",
+          "state": "SC",
+          "zip_code": 8903996
+        },
+        "urgency": {
+          "type": 2,
+          "limit_date": ""
+        },
+        "photos": [
+          {
+            "src": "https://images7.kabum.com.br/produtos/fotos/57527/57527_1460728524_g.jpg"
+          },
+          {
+            "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "/deal": {
+    "post": {}
+  },
+  "/user/deal": {
+    "get": {
+      "deals": [
+        {
+          "type": 1,
+          "value": 190.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+          "trade_for": "",
+          "location": {
+            "address": "Rua 1500",
+            "city": "Blumenau",
+            "state": "SC",
+            "zip_code": "89039-96"
+          },
+          "urgency": {
+            "type": 1,
+            "limit_date": null
+          },
+          "photos": [
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            },
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "value": 190.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+          "trade_for": "",
+          "location": {
+            "address": "Rua 1500",
+            "city": "Blumenau",
+            "state": "SC",
+            "zip_code": "89039-96"
+          },
+          "urgency": {
+            "type": 1,
+            "limit_date": null
+          },
+          "photos": [
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            },
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "value": 190.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor.",
+          "trade_for": "",
+          "location": {
+            "address": "Rua 1500",
+            "city": "Blumenau",
+            "state": "SC",
+            "zip_code": "89039-96"
+          },
+          "urgency": {
+            "type": 1,
+            "limit_date": null
+          },
+          "photos": [
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            },
+            {
+              "src": "https://i.zst.com.br/images/mouse-optico-sem-fio-1850-microsoft-photo28236220-12-c-15.jpg"
+            }
+          ]
+        }
+      ],
+      "offers": [
+        {
+          "accepted": false,
+          "value": 150.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor."
+        },
+        {
+          "accepted": null,
+          "value": 150.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor."
+        },
+        {
+          "accepted": true,
+          "value": 150.99,
+          "description": "Teclado Microsoft Wired 600 Multimídia, Você não precisa mais procurar um teclado de qualidade que oferece excelente valor."
+        }
+      ]
+    }
+  }
+}
